@@ -1,0 +1,9 @@
+## Interface: 70300
+## Author: me
+## Title: jRaidFrames
+## Notes: styles the default raid frames
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+
+code.lua
