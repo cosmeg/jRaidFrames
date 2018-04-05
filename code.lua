@@ -35,6 +35,7 @@ local function shortenName(frame)
 
     local tooBig = true
     -- XXX increase this?
+    -- XXX I don't think this handles unicode properly
     local chars = 4
     while tooBig do
       local newname = string.sub(name, 1, chars)
