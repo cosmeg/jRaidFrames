@@ -137,3 +137,12 @@ bootstrap()
 -- XXX change total size so I can move further right?
 
 -- XXX this isn't really working for new people joining
+
+-- XXX are pet frames different?
+
+
+SLASH_JRAIDFRAMES_JRF1 = "/jrf"
+function SlashCmdList.JRAIDFRAMES_JRF(msg, editbox)
+  bootstrap()
+  -- TODO trigger reflow
+end
